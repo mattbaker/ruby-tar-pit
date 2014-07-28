@@ -1,4 +1,3 @@
-require_relative 'derived-relation'
 require_relative 'relation-operations'
 require_relative 'relation-display'
 
