@@ -10,7 +10,6 @@
 #                                        address == address))),
 #        (squareFeet = sum(roomSize, restrict(RoomInfo |
 #                                             address == address))))
-
 require_relative '../base-relations/property'
 require_relative 'room-info'
 

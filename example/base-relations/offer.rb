@@ -1,4 +1,5 @@
 require_relative '../../lib/base-relation'
+
 class Offer < BaseRelation
   attribute :address
   attribute :offer_price
