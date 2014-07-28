@@ -1,4 +1,4 @@
-require_relative 'lib/base-relation'
+require_relative '../../lib/base-relation'
 
 class Property < BaseRelation
   attribute :address

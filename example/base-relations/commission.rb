@@ -1,4 +1,5 @@
-require_relative 'lib/base-relation'
+require_relative '../../lib/base-relation'
+
 class Commission < BaseRelation
   property :price_band
   property :area_code

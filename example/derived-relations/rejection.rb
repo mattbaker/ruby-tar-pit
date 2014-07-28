@@ -2,11 +2,8 @@
 #                   bidderAddress:address decisionDate:date} */
 # Rejection = project_away(restrict(Decision | accepted == false),
 #                          accepted)
-require_relative 'lib/derived-relation'
-require 'decision'
+require '../base-relations/decision'
 
-class Rejection < DerivedRelation
-  extend_relation Decision
-  restrict ->(decision) { decision.accepted == false }
-  strip :accepted
-end
+Rejection = Decision
+  .restrict(->(decision) { decision.accepted == false })
+  .project_away(:accepted)
