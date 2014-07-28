@@ -8,7 +8,7 @@ require_relative 'base-relations/property'
 require_relative 'derived-relations/room-info'
 require_relative 'derived-relations/bathroom'
 require_relative 'derived-relations/property-info'
-require_relative 'derived-relations/acceptance'
+require_relative 'derived-relations/accepted-offers'
 
 living_room = Room.new({
   address: '2933 NE 26th Portland, OR',
@@ -95,13 +95,7 @@ pdx_decision2 = Decision.new({
   decision_date: Date.new(2012, 2, 5),
   accepted: false})
 
-AcceptedOffers = Acceptance
-  .join(Offer)
-  .join(PropertyInfo)
-  .extend_relation(
-    profit: ->(offer_price, price) { offer_price - price },
-    profit_per_sq_ft: ->(profit, square_feet) {profit / square_feet})
-  .project(:address, :area_code, :profit, :profit_per_sq_ft, :price_band)
+
 
 puts Room
 puts Bathroom
