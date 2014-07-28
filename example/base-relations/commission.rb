@@ -1,8 +1,8 @@
 require_relative '../../lib/base-relation'
 
 class Commission < BaseRelation
-  property :price_band
-  property :area_code
-  property :sale_speed
-  property :commission
+  attribute :price_band
+  attribute :area_code
+  attribute :sale_speed
+  attribute :commission
 end
