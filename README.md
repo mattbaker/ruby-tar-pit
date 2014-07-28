@@ -4,7 +4,7 @@ This is an experimental implementation of the example "functional relational pro
 
 Run example with `ruby example/example.rb`.
 
-[AcceptedOffer](example/derived-relations/accepted-offer) and [PropertyInfo](example/derived-relations/property-info) are interesting examples.
+[AcceptedOffer](example/derived-relations/accepted-offer.rb) and [PropertyInfo](example/derived-relations/property-info.rb) are interesting examples.
 
 
 ##Warning
