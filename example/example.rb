@@ -8,7 +8,7 @@ require_relative 'base-relations/property'
 require_relative 'derived-relations/room-info'
 require_relative 'derived-relations/bathroom'
 require_relative 'derived-relations/property-info'
-require_relative 'derived-relations/accepted-offers'
+require_relative 'derived-relations/accepted-offer'
 
 living_room = Room.new({
   address: '2933 NE 26th Portland, OR',
@@ -102,4 +102,4 @@ puts Bathroom
 puts Property
 puts PropertyInfo
 puts Offer
-puts AcceptedOffers
+puts AcceptedOffer

@@ -1,6 +1,6 @@
 require_relative 'acceptance'
 
-AcceptedOffers = Acceptance
+AcceptedOffer = Acceptance
   .join(Offer)
   .join(PropertyInfo)
   .extend_relation(
