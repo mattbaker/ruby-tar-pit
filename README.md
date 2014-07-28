@@ -1,6 +1,6 @@
-#Out of the Ruby tar pit
+#Out of the Ruby Tar Pit
 
-This is an experimental implementation of the example "functional relational programming" system in [Out of the tarpit (Mosley and Marks, 2006)](http://shaffner.us/cs/papers/tarpit.pdf).
+This is an experimental implementation of the example "functional relational programming" system in [Out of the Tar Pit (Mosley and Marks, 2006)](http://shaffner.us/cs/papers/tarpit.pdf).
 
 Run example with `ruby example/example.rb`.
 
