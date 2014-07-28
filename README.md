@@ -1,11 +1,19 @@
 #Out of the Ruby Tar Pit
 
-This is an experimental implementation of the example "functional relational programming" system in [Out of the Tar Pit (Mosley and Marks, 2006)](http://shaffner.us/cs/papers/tarpit.pdf).
+![](http://i.imgur.com/wF8vC6a.gif)
 
-Run example with `ruby example/example.rb`.
+This is a dubiously architected, debatably insane implementation of the example "functional relational programming" system in [Out of the Tar Pit (Mosley and Marks, 2006)](http://shaffner.us/cs/papers/tarpit.pdf).
+
+Run the example with `ruby example/example.rb`.
 
 [AcceptedOffer](example/derived-relations/accepted-offer.rb) and [PropertyInfo](example/derived-relations/property-info.rb) are interesting examples.
 
+I wasn't on drugs when I wrote this. I probably should have been.
 
-##Warning
-Experimental work in progress, there are dragons in here.
+
+## Contributing
+
+Cool PR? Totally different implementation? A weird fork that bears no resemblance to whatever monster I've created? I want to see it.
+
+
+
